@@ -10,7 +10,7 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 
 ## Instalation 
 ```sh
-$ git clone https://github.com/MyNimrod/The-Maze-Project.git
+$ git clone https://github.com/Pierre254/The-Maze-Project.git
 ```
 ## Usage 
 * Execute ./maze or type make run 
@@ -21,9 +21,3 @@ $ git clone https://github.com/MyNimrod/The-Maze-Project.git
 ```sh
 $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 ```
-
-## Flowchart
-![The Maze Flow Chart](https://drive.google.com/file/d/1WktQD7kdYC3XM2i-VYpDTj1uewsUwcRk/view?usp=share_link)
-
-## Demo
-[![The Maze Demo](https://drive.google.com/file/d/1fviszpt2TfTLal_pknlbho5-AjbKURNa/view?usp=sharing)
