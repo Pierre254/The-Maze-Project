@@ -8,6 +8,10 @@ The Maze is a 3D maze game that transforms a 2D map into a 3D navigable world us
 
 The Maze project began as a fascination with the complexity and beauty of mazes. I wanted to create an immersive experience that combined my interest in algorithms and game development. The challenge was to build a visually engaging 3D maze game from a simple 2D map, which led me to explore the intricacies of ray casting and optimization techniques.
 
+Introduction
+LinkedIn https://www.linkedin.com/pulse/maze-project-pierre-truter-3cajf 
+www.linkedin.com/in/pierre-truter-3273a6120
+deployed site https://ptruter.wixsite.com/the-maze-project 
 ## Technical Challenge
 
 The core technical challenge was to efficiently render a 3D maze from a 2D grid using ray casting. This involved understanding and implementing complex algorithms while managing performance and memory constraints. I chose the SDL2 library for its versatility in handling graphics, audio, and input across platforms.
@@ -60,3 +64,23 @@ $ git clone https://github.com/Pierre254/The-Maze-Project.git
 Usage
 $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze $(sdl2-config --cflags --libs)
 $ ./maze
+
+Controls
+Move Forward/Backward: Up/Down arrow keys or w/s
+Turn Camera: Left/Right arrow keys or a/d
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to the existing style and passes all tests.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/YourFeature)
+Commit your Changes (git commit -m 'Add some feature')
+Push to the Branch (git push origin feature/YourFeature)
+Open a Pull Request
+Related Projects
+Ray Casting in Games
+SDL2 Documentation
+3D Maze Algorithms
+
+Licensing
+This project is licensed under the MIT License
